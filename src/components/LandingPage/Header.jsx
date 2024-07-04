@@ -163,7 +163,7 @@ function Header() {
         <div className="fixed inset-0 bg-black bg-opacity-50 z-5" onClick={toggleMenu}></div>
       )} */}
       <div
-        className={`fixed top-0 right-0 h-full w-56 bg-white shadow-2xl transform transition-transform duration-300 ease-in-out z-10 ${
+        className={`fixed top-[14px] right-0 h-full w-56 bg-white shadow-2xl transform transition-transform duration-300 ease-in-out z-10 ${
           isMenuOpen ? "translate-x-0" : "translate-x-full"
         }`}
       >
